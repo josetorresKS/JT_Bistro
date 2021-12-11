@@ -20,8 +20,8 @@ SECRET_KEY = 'django-insecure-ov#r^^&xv&^0vmc(zj&h_t^$*52@8jicn=%*z*@s-=li!s_p@=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 ALLOWED_HOSTS = ['*']
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000', 'https://jtbistro-frontend.herokuapp.com/']
+CORS_ALLOW_ALL_ORIGINS = False
+CORS_ALLOWED_ORIGINS = ['http://localhost:3000', 'http://127.0.0.1:3000', ]
 # Application definition
 INSTALLED_APPS = [
     # To allow CORS (Cross-origin resource sharing)
@@ -80,16 +80,16 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd92e89iltravamr',
-        'USER': 'yxnxtxscemprpz',
-        'PORT': 5432,
-        'HOST': 'ec2-107-23-135-132.compute-1.amazonaws.com',
-        'PASSWORD': '93df92fe54e2602f2b6a703c2adeb0a85553ec375583f084f5844062f3ab151c',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'd92e89iltravamr',
+#         'USER': 'yxnxtxscemprpz',
+#         'PORT': 5432,
+#         'HOST': 'ec2-107-23-135-132.compute-1.amazonaws.com',
+#         'PASSWORD': '93df92fe54e2602f2b6a703c2adeb0a85553ec375583f084f5844062f3ab151c',
+#     }
+# }
 # Heroku PostgreSQL Database
 django_heroku.settings(locals())
 # Password validation
