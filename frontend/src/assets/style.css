@@ -8,7 +8,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Hiragino Mincho ProN";
+  font-family: "roboto";
 }
 
 h1 {
@@ -29,12 +29,13 @@ ul.category li {
 ul.category li a,
 ul.category li a:visited {
   border: 1px solid #707070;
-  padding: 6px 32px;
-  margin-right: 37px;
+  padding: 6px;
+  margin-right: 9px;
   color: white;
   text-decoration: none;
   background: black;
-  font-family: roboto ;
+  font-family: "roboto" ;
+  font-size: 5px;
 }
 
 ul.category li.active a,
