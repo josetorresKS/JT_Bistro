@@ -1,12 +1,12 @@
 import axios from "axios";
 
 var baseURL;
-if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "PRODUCTION") {
-    baseURL = process.env.REACT_APP_API_BASE_URL;
-} else {
-    baseURL = "https://jtbistro-backend.herokuapp.com/";
-}
-
+// if (process.env.REACT_APP_ENVIRONMENT && process.env.REACT_APP_ENVIRONMENT === "PRODUCTION") {
+//     baseURL = process.env.REACT_APP_API_BASE_URL;
+// } else {
+//     baseURL = "https://jtbistro-backend.herokuapp.com/";
+// }
+baseURL = "https://jtbistro-backend.herokuapp.com/";
 
 const api = axios.create({
   baseURL: baseURL,
