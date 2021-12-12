@@ -249,9 +249,9 @@ footer button {
   border: 0;
   padding: 15px 25px;
   font-size: 19px;
-  font-family: "Hiragino Mincho ProN";
+  font-family: "roboto";
   cursor: pointer;
-  font-family: roboto;
+  
 }
 
 footer button.link-button {
@@ -344,7 +344,7 @@ footer button.link-button {
   border: 1px solid #707070;
   padding: 8px;
   margin: 0px 0 5px 0;
-  font-family: "Hiragino Mincho ProN";
+  font-family: "roboto";
 }
 
 .popup1 textarea {
@@ -353,7 +353,7 @@ footer button.link-button {
   border: 1px solid #707070;
   padding: 8px;
   margin: 10px 0;
-  font-family: "Hiragino Mincho ProN";
+  font-family: "roboto";
   height: 100px;
 }
 
@@ -362,7 +362,7 @@ footer button.link-button {
   border: 1px solid black;
   padding: 5px 15px;
   font-weight: bold;
-  font-family: "Hiragino Mincho ProN";
+  font-family: "roboto";
   margin-bottom: 30px;
 }
 
@@ -391,6 +391,28 @@ footer button.link-button {
   overflow-wrap: break-word;
 }
 
+@media screen and (max-width: 800px) {
+  ul.category li a, ul.category li a:visited {
+    border: 1px solid #707070;
+    padding: 0px 14px;
+    margin-right: 24px;
+    color: white;
+    text-decoration: none;
+    background: black;
+    font-family: roboto;
+}
+}
+@media screen and (max-width: 540px){
+  ul.items li .info .name-bottom {
+    padding: 0px 0;
+    display: flex;
+}
+ul.category li a, ul.category li a:visited {
+  font-size: 10px;
+  margin-right: 13px;
+}
+}
+
 @media screen and (max-width: 500px) {
   .popup1 .popup-content {
     top: 20%;
@@ -399,4 +421,30 @@ footer button.link-button {
     min-height: 400px;
     padding: 0 4%;
   }
+}
+
+@media screen and (max-width:280px) {
+ul.category li a, ul.category li a:visited {
+  border: 1px solid #707070;
+  padding: 2px 18px;
+  margin-right: 3px;
+  color: white;
+  text-decoration: none;
+  background: black;
+  font-family: roboto;
+  font-size: 3px;
+}
+}
+
+@media screen and (max-width:280px) {
+ul.category li a, ul.category li a:visited {
+  border: 1px solid #707070;
+  padding: 3px 18px;
+  margin-right: -4px;
+  color: white;
+  text-decoration: none;
+  background: black;
+  font-family: roboto;
+  font-size: 3px;
+}
 }
