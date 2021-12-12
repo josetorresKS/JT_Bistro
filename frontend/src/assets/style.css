@@ -29,13 +29,13 @@ ul.category li {
 ul.category li a,
 ul.category li a:visited {
   border: 1px solid #707070;
-  padding: 7px;
-  margin-right: 6px;
+  padding: 12px;
+  margin-right: 66px;
   color: white;
   text-decoration: none;
   background: black;
   font-family: "roboto" ;
-  font-size: 5px;
+  font-size: 19px;
 }
 
 ul.category li.active a,
@@ -394,12 +394,12 @@ footer button.link-button {
 @media screen and (max-width: 800px) {
   ul.category li a, ul.category li a:visited {
     border: 1px solid #707070;
-    padding: 0px 14px;
-    margin-right: 24px;
+    padding:  5px;
+    margin-right: 16px;
     color: white;
     text-decoration: none;
     background: black;
-    font-family: roboto;
+    font-family: "roboto";
 }
 }
 @media screen and (max-width: 540px){
@@ -407,9 +407,11 @@ footer button.link-button {
     padding: 0px 0;
     display: flex;
 }
+}
+@media screen and (max-width: 540px){
 ul.category li a, ul.category li a:visited {
-  font-size: 10px;
-  margin-right: 13px;
+  font-size: 8px;
+  margin-right: 3px;
 }
 }
 
@@ -432,19 +434,21 @@ ul.category li a, ul.category li a:visited {
   text-decoration: none;
   background: black;
   font-family: roboto;
-  font-size: 3px;
+  font-size: 5px;
+  padding: 6px;
+  margin-right: 6px;
 }
 }
 
 @media screen and (max-width:280px) {
-ul.category li a, ul.category li a:visited {
-  border: 1px solid #707070;
-  padding: 3px 18px;
-  margin-right: -4px;
-  color: white;
-  text-decoration: none;
-  background: black;
-  font-family: roboto;
-  font-size: 3px;
-}
+  ul.category li a, ul.category li a:visited {
+    border: 1px solid #707070;
+    padding: 3px 18px;
+    margin-right: -4px;
+    color: white;
+    text-decoration: none;
+    background: black;
+    font-family: roboto;
+    font-size: 3px;
+  }
 }
