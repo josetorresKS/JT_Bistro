@@ -30,7 +30,7 @@ ul.category li a,
 ul.category li a:visited {
   border: 1px solid #707070;
   padding: 12px;
-  margin-right: 66px;
+  margin-right: 17px;
   color: white;
   text-decoration: none;
   background: black;
@@ -248,7 +248,7 @@ footer button {
   color: #FFFFFF;
   border: 0;
   padding: 15px 25px;
-  font-size: 19px;
+  font-size: 15px;
   font-family: "roboto";
   cursor: pointer;
   
