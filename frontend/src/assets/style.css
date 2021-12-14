@@ -1,118 +1,93 @@
-/****************************
-* Common
-*****************************/
 
 @import url(https://fonts.googleapis.com/css?family=roboto);
-
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "roboto";
+  font-family: "Hiragino Mincho ProN";
 }
-
 h1 {
   font-size: 30px;
   font-family: roboto;
   font-weight: bold;
 }
-
 ul.category {
   padding: 30px 0;
   display: flex;
 }
-
 ul.category li {
   list-style: none;
 }
-@media screen and (max-width: 280px) {
 ul.category li a,
 ul.category li a:visited {
   border: 1px solid #707070;
-  padding: 12px;
-  margin-right: 17px;
+  padding: 6px 19px;
+  margin-right: 26px;
   color: white;
   text-decoration: none;
   background: black;
-  font-family: "roboto" ;
-  font-size: 19px;
+  font-family: roboto ;
 }
-}
-
 ul.category li.active a,
 ul.category li.active a:visited {
   background-color:#A89158;
   color: white;
 }
-
 .content {
   padding: 0px 30px 100px 30px;
 }
-
 .inner {
   position: relative;
   width: 100%;
   height: 100%;
 }
-
 @media screen and (max-width: 500px) {
   .content {
     padding: 0px 15px 100px 15px;
   }
 }
-
 /****************************
-* Items 
+* Items
 *****************************/
-
 ul.items {
   padding: 20px 0;
 }
-
 ul.items li {
   list-style: none;
   display: flex;
   padding-bottom: 25px;
 }
-
 ul.items li img.item-image {
   width: 30%;
   height: fit-content;
 }
-
 ul.items li .info {
   width: 70%;
   position: relative;
   padding: 5px 15px;
 }
-
 ul.items li .info .name {
   font-weight: bold;
   font-size: 22px;
   font-family: roboto;
 }
-
 ul.items li .info .name-bottom {
   padding: 10px 0;
   display: flex;
 }
-
 ul.items li .info .name-bottom img.icon-heart {
   width: 30px;
 }
-
 ul.items li .info .name-bottom .count {
   padding: 3px 15px 0 10px;
 }
-
 ul.items li .info .name-bottom button.link-button {
   background-color: white;
   border: 0;
-  color: #38a1ed;
+  color: #38A1ED;
   padding-right: 15px;
   cursor: pointer;
 }
-
 ul.items li .info .info-bottom {
   position: absolute;
   left: 15px;
@@ -121,108 +96,87 @@ ul.items li .info .info-bottom {
   display: flex;
   justify-content: space-between;
 }
-
 ul.items li .info .info-bottom .price {
   padding-top: 5px;
   font-size: 20px;
 }
-
 ul.items li .info .info-bottom .add {
   border: 1px solid black;
   font-size: 20px;
   padding: 5px 25px;
   cursor: pointer;
 }
-
 ul.items li .info .info-bottom .number {
   border: 1px solid black;
   font-size: 20px;
   padding: 5px 15px;
 }
-
 ul.items li .info .info-bottom .number .plus,
 ul.items li .info .info-bottom .number .minus,
 ul.items li .info .info-bottom .number .count {
   padding: 3px;
 }
-
 ul.items li .info .info-bottom .number .plus,
 ul.items li .info .info-bottom .number .minus {
   padding: 3px;
   cursor: pointer;
 }
-
 @media screen and (max-width: 500px) {
   ul.items {
     padding: 0;
   }
-
   ul.items li .info .name {
     font-weight: bold;
     font-size: 14px;
   }
-
   ul.items li .info .name-bottom img.icon-heart {
     width: 20px;
   }
-
   ul.items li .info .name-bottom .count {
     padding: 7px 10px 0 5px;
     font-size: 13px;
   }
-
   ul.items li .info .name-bottom button.link-button {
     padding-right: 5px;
     font-size: 13px;
   }
-
   ul.items li .info .info-bottom {
     position: relative;
     padding: 5px 0 0 0;
     left: 0;
     bottom: 0;
   }
-
   ul.items li .info .info-bottom .price {
     padding-top: 5px;
     font-size: 15px;
   }
-
   ul.items li .info .info-bottom .add {
     font-size: 14px;
     padding: 0px 15px;
     line-height: 24px;
   }
-
   ul.items li .info .info-bottom .number {
     font-size: 14px;
     padding: 0px 5px;
     line-height: 24px;
   }
 }
-
 /****************************
 * Header
 *****************************/
-
 header img {
   width: 150px;
   padding: 10px;
 }
-
 img.Logo {
-  
     width: 10%;
     position: absolute;
     top: 5.32%;
     left: 3.5%;
-
 }
-
 /****************************
-* footer 
+* footer
 *****************************/
-
 footer {
   position: fixed;
   bottom: 0;
@@ -235,13 +189,11 @@ footer {
   border: 1px solid rgb(206 206 206);
   width: 100%;
 }
-
 footer .subtotal {
   font-size: 20px;
   line-height: 50px;
   font-weight: bold;
 }
-@media screen and (max-width: 280px) {
 footer button {
   margin-right: 20px;
   margin-left: 20px;
@@ -249,21 +201,18 @@ footer button {
   color: #FFFFFF;
   border: 0;
   padding: 15px 25px;
-  font-size: 15px;
-  font-family: "roboto";
+  font-size: 19px;
+  font-family: "Hiragino Mincho ProN";
   cursor: pointer;
-  
+  font-family: roboto;
 }
-}
-
 footer button.link-button {
-  color: #1c7bfd;
+  color: #1C7BFD;
   background-color: white;
   font-size: 20px;
   padding: 5px 25px;
   font-weight: bold;
 }
-
 @media screen and (max-width: 500px) {
   footer .subtotal {
     font-size: 15px;
@@ -272,20 +221,15 @@ footer button.link-button {
     font-size: 14px;
   }
 }
-
 /****************************
 * Home
 *****************************/
-
-
 .home .main-visual img.background {
   width: 100%;
 }
-
 /****************************
 * Popup 1
 *****************************/
-
 .popup1 {
   background-color: rgba(0, 0, 0, 0.514);
   position: fixed;
@@ -295,7 +239,6 @@ footer button.link-button {
   right: 0;
   bottom: 0;
 }
-
 .popup1 .popup-content {
   position: absolute;
   background-color: white;
@@ -306,11 +249,9 @@ footer button.link-button {
   padding: 0 20px;
   max-height: 60%;
 }
-
 .popup1 h2 {
   font-size: 22px;
 }
-
 .popup1 .cross {
   position: absolute;
   right: 15px;
@@ -318,90 +259,77 @@ footer button.link-button {
   width: 30px;
   cursor: pointer;
 }
-
 .popup1 ul.reactions {
   display: flex;
   padding: 0;
   cursor: pointer;
 }
-
 .popup1 ul.reactions li {
   list-style: none;
   width: 20%;
   margin-right: 2%;
 }
-
 .popup1 ul.reactions li img {
   width: 100%;
   opacity: 0.5;
 }
-
 .popup1 ul.reactions li img.selected {
   opacity: 1;
 }
-
 .popup1 input {
   width: 70%;
   border-radius: 0;
   border: 1px solid #707070;
   padding: 8px;
   margin: 0px 0 5px 0;
-  font-family: "roboto";
+  font-family: "Hiragino Mincho ProN";
 }
-
 .popup1 textarea {
   width: 80%;
   border-radius: 0;
   border: 1px solid #707070;
   padding: 8px;
   margin: 10px 0;
-  font-family: "roboto";
+  font-family: "Hiragino Mincho ProN";
   height: 100px;
 }
-
 .popup1 button {
   background-color: white;
   border: 1px solid black;
   padding: 5px 15px;
   font-weight: bold;
-  font-family: "roboto";
+  font-family: "Hiragino Mincho ProN";
   margin-bottom: 30px;
 }
-
 .popup1 ul.reviews {
   padding: 0;
   height: 300px;
   overflow-y: scroll;
 }
-
 .popup1 ul.reviews li {
   list-style: none;
   padding: 15px 0;
   border-bottom: 1px solid rgb(206, 206, 206);
 }
-
 .popup1 ul.reviews li img {
   width: 100px;
 }
-
 .popup1 ul.reviews .name {
   font-size: 15px;
 }
-
 .popup1 ul.reviews .body {
   font-size: 12px;
   overflow-wrap: break-word;
 }
-
 @media screen and (max-width: 800px) {
   ul.category li a, ul.category li a:visited {
     border: 1px solid #707070;
-    padding:  5px;
-    margin-right: 16px;
+    padding: 0px 14px;
+    margin-right: 24px;
     color: white;
     text-decoration: none;
     background: black;
-    font-family: "roboto";
+    font-family: roboto;
 }
 }
 @media screen and (max-width: 540px){
@@ -409,14 +337,11 @@ footer button.link-button {
     padding: 0px 0;
     display: flex;
 }
-}
-@media screen and (max-width: 540px){
 ul.category li a, ul.category li a:visited {
-  font-size: 8px;
-  margin-right: 3px;
+  font-size: 10px;
+  margin-right: 13px;
 }
 }
-
 @media screen and (max-width: 500px) {
   .popup1 .popup-content {
     top: 20%;
@@ -425,23 +350,17 @@ ul.category li a, ul.category li a:visited {
     min-height: 400px;
     padding: 0 4%;
   }
-}
-
-@media screen and (max-width:280px) {
-ul.category li a, ul.category li a:visited {
-  border: 1px solid #707070;
-  padding: 2px 18px;
-  margin-right: 3px;
-  color: white;
-  text-decoration: none;
-  background: black;
-  font-family: roboto;
-  font-size: 5px;
-  padding: 6px;
-  margin-right: 6px;
+  ul.category li a, ul.category li a:visited {
+    border: 1px solid #707070;
+    padding: 2px 18px;
+    margin-right: 3px;
+    color: white;
+    text-decoration: none;
+    background: black;
+    font-family: roboto;
+    font-size: 3px;
 }
 }
-
 @media screen and (max-width:280px) {
   ul.category li a, ul.category li a:visited {
     border: 1px solid #707070;
@@ -452,5 +371,17 @@ ul.category li a, ul.category li a:visited {
     background: black;
     font-family: roboto;
     font-size: 3px;
-  }
+
+}
+footer button {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: #2D2D2D;
+  color: #FFFFFF;
+  border: 0;
+  padding: 15px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: roboto;
+}
 }
