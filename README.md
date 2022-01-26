@@ -3,10 +3,10 @@
 Bistro App, with a frontend built in React and Redux with a backend built in Django API
 
 
-Checkout [Frontend Live Deployment](https://jtbistro-frontend.herokuapp.com/)
+Checkout [Frontend Live Deployment](https://frontend-torres.herokuapp.com/)
 ![image](https://user-images.githubusercontent.com/91580447/145667082-1a09a2fc-f276-4942-b889-ed68177dd975.png)
 
-Checkout [Backend Live Deployment](https://jtbistro-backend.herokuapp.com/)
+Checkout [Backend Live Deployment](https://backend-torres.herokuapp.com/)
 ![image](https://user-images.githubusercontent.com/91580447/145667127-519be881-8eee-497d-9caf-b122a8a4c20d.png)
 
 ## Technology used
