@@ -9,7 +9,7 @@ Checkout [Frontend Live Deployment](https://jtbistro-frontend.herokuapp.com/)
 Checkout [Backend Live Deployment](https://jtbistro-backend.herokuapp.com/)
 ![image](https://user-images.githubusercontent.com/91580447/145667127-519be881-8eee-497d-9caf-b122a8a4c20d.png)
 
-## Tech used
+## Technology used
 
 * Frontend : React & Redux
 * Backend : Django
